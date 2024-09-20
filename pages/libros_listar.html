@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Libros</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link href="../assets/css/estilos.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/all.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/equipos.css" rel="stylesheet" type="text/css" />
+
+    <script src="../assets/js/mijs.js"></script>
+  </head>
+
+  <body>
+    <!-- Cabecera -->
+    <header>
+      <div><img src="/assets/img/logoCUC.png" alt="logo Universidad" />Buenas prácticas</div>
+      <div style="margin-left: auto">Salir</div>
+    </header>
+
+    <!-- Menú izquierda -->
+    <div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width: 160px">
+      <a href="../index.html" class="w3-bar-item w3-button">
+        <i class="fa-solid fa-house azul"></i>
+        Inicio
+      </a>
+      <button class="w3-button w3-block w3-left-align" onclick="myAccFunc()">
+        Libros <i class="fa fa-caret-down"></i>
+      </button>
+      <div id="demoAcc" class="w3-hide w3-white w3-card">
+        <a href="#" class="w3-bar-item w3-button">Listar</a>
+        <a href="#" class="w3-bar-item w3-button">Administrar</a>
+      </div>
+
+      <div class="w3-dropdown-click">
+        <button class="w3-button" onclick="myDropFunc()">Editoriales <i class="fa fa-caret-down"></i></button>
+        <div id="demoDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+          <a href="#" class="w3-bar-item w3-button">Agregar</a>
+          <a href="#" class="w3-bar-item w3-button">Ubicaciones</a>
+        </div>
+      </div>
+      <a href="#" class="w3-bar-item w3-button">Acerca de</a>
+      <a href="#" class="w3-bar-item w3-button"> <i class="fa-solid fa-right-from-bracket"></i> Salir </a>
+    </div>
+
+    <!-- Cuerpo -->
+    <div class="w3-container" style="margin-left: 160px">
+      <div>
+        <ul class="breadcrumb">
+          <li><a href="#">Libros</a></li>
+          <li>Listar</li>
+        </ul>
+      </div>
+
+      <h2>The best books</h2>
+
+      <div>
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <img src="../assets/img/cien.png" alt="software" />
+              <div class="container">
+                <h4><b>Cien Años de Soledad</b></h4>
+                <p>1967</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <img src="../assets/img/colera.png" alt="software" />
+              <div class="container">
+                <h4><b>El amor en los tiempos de colera</b></h4>
+                <p>1985</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <img src="../assets/img/coronel.png" alt="software" />
+              <div class="container">
+                <h4><b>El coronel no tiene quien le escriba</b></h4>
+                <p>1961</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Segunda fila-->
+        <div class="row" style="padding-top: 1rem">
+          <div class="column">
+            <div class="card">
+              <img src="../assets/img/cronica.png" alt="software" />
+              <div class="container">
+                <h4><b>Crónica de una muerte anunciada</b></h4>
+                <p>1981</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <img src="../assets/img/demonios.png" alt="software" />
+              <div class="container">
+                <h4><b>Del amor y otros demonios</b></h4>
+                <p>1994</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <img src="../assets/img/hojarasca.png" alt="software" />
+              <div class="container">
+                <h4><b>La hojarasca</b></h4>
+                <p>1955</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p><br></p>
+      </div>
+    </div>
+  </body>
+</html>

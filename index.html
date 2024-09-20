@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gabo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link href="assets/css/estilos.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/all.css" rel="stylesheet" type="text/css" />
+
+    <script src="assets/js/mijs.js"></script>
+  </head>
+
+  <body>
+    <!-- Cabecera -->
+    <header>
+      <div><img src="assets/img/logoCUC.png" alt="logo Universidad" />Parcial 01</div>
+      <div style="margin-left: auto">Salir</div>
+    </header>
+
+    <!-- Menú izquierda -->
+    <div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width: 160px">
+      <a href="#" class="w3-bar-item w3-button">
+        <i class="fa-solid fa-house azul"></i>
+        Inicio
+      </a>
+      <button class="w3-button w3-block w3-left-align" onclick="myAccFunc()">
+        Libros<i class="fa fa-caret-down"></i>
+      </button>
+      <div id="demoAcc" class="w3-hide w3-white w3-card">
+        <a href="pages/libros_listar.html" class="w3-bar-item w3-button">Listar</a>
+        <a href="#" class="w3-bar-item w3-button">Administrar</a>
+      </div>
+
+      <div class="w3-dropdown-click">
+        <button class="w3-button" onclick="myDropFunc()">Editoriales <i class="fa fa-caret-down"></i></button>
+        <div id="demoDrop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+          <a href="#" class="w3-bar-item w3-button">Agregar</a>
+          <a href="#" class="w3-bar-item w3-button">Ubicaciones</a>
+        </div>
+      </div>
+      <a href="#" class="w3-bar-item w3-button">Acerca de</a>
+      <a href="#" class="w3-bar-item w3-button"> <i class="fa-solid fa-right-from-bracket"></i> Salir </a>
+    </div>
+
+    <!-- Cuerpo -->
+    <div class="w3-container" style="margin-left: 160px">
+      <div>
+        <ul class="breadcrumb">
+          <li><a href="#">Inicio</a></li>
+          <li>Bienvenido</li>
+        </ul>
+      </div>
+
+      <h2>Gabriel Garcia Marquez</h2>
+      <h3>
+        <p style="text-align: justify">
+          Gabriel García Márquez, conocido cariñosamente como “Gabo”, fue un escritor, periodista y guionista
+          colombiano, nacido el 6 de marzo de 1927 en Aracataca, Magdalena, y fallecido el 17 de abril de 2014 en Ciudad
+          de México.
+        </p>
+
+        <p style="text-align: justify">
+          <b>Infancia y Educación:</b> García Márquez pasó su infancia con sus abuelos maternos, quienes influyeron
+          profundamente en su obra. Estudió derecho y periodismo en la Universidad Nacional de Colombia, aunque no
+          completó sus estudios debido a los disturbios del Bogotazo.<br />
+
+          <b>Periodismo:</b> Inició su carrera periodística en el diario El Espectador, donde publicó su primer relato,
+          "La tercera resignación". Trabajó en varios periódicos y fue corresponsal en Europa y América Latina.<br />
+
+          <b>Vida Personal:</b> En 1958 se casó con Mercedes Barcha, con quien tuvo dos hijos, Rodrigo y Gonzalo.<br />
+
+          <b>Obra Literaria:</b> García Márquez es considerado el máximo exponente del realismo mágico, un estilo
+          literario que combina elementos fantásticos con la realidad cotidiana.<br />
+
+          <b>Novelas Destacadas:</b> “Cien años de soledad” (1967): Su obra más famosa, que narra la historia de la
+          familia Buendía en el pueblo ficticio de Macondo. “El amor en los tiempos del cólera” (1985): Una historia de
+          amor que abarca varias décadas. “Crónica de una muerte anunciada” (1981): Una novela corta basada en un hecho
+          real.<br />
+
+          <b>Premios y Reconocimientos:</b> En 1982, recibió el Premio Nobel de Literatura por su obra, que combina lo
+          fantástico y lo real en un mundo ricamente compuesto de imaginación.<br />          
+        </p>
+      </h3>
+      <h3>García Márquez dejó un legado literario inmenso y sigue siendo una figura central en la literatura mundial.</h3>
+    </div>
+  </body>
+</html>
